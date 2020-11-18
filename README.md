@@ -1,1 +1,1 @@
-# PPI-Prediction-Challenge-preparation
+# PPI Prediction Challenge Preparation
