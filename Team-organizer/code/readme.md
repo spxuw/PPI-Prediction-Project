@@ -20,7 +20,7 @@ N/A
 # Method description
 The method used in this example code is the heuristic score: Common Neighbors for node pair. The common neighbors algorithm quantifies the overlap or similarity of two nodes as follows[1]:
 ```math
-a^2+b^2=c^2
+s_{ij} = |\Gamma(i)\cup\Gamma(i)|
 ```
 
 # Reference
