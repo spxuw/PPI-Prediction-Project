@@ -20,7 +20,7 @@ N/A
 # Method description
 The method used in this example code is the heuristic score: Common Neighbors for node pair. The common neighbors algorithm quantifies the overlap or similarity of two nodes as follows[1]:
 
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+![equation](https://render.githubusercontent.com/render/math?math=s_%7Bij%7D%20%3D%20%7C%5CGamma(i)%5Ccup%5CGamma(j)%7C)  
 
 
 # Reference
