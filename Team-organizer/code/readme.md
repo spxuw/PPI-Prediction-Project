@@ -1,7 +1,7 @@
 # Code description
 Internal_validation.py is an example code to calculate the AUROC, AUPRC, P(5000) and NDCG.
 External_validation.py is an example code to output the scores of top-500 links.
-Note that in internal validation, we used 10 different indpendent spliting. However, the participants should report the metrics with 10-fold cross validation.
+Note that in internal validation, we used 10 different randomly splitings. However, the participants should report the metrics with 10-fold cross validation.
 
 # Computing environment
 All the source codes are tested with python 3.8.3 on macOS 11.01.
