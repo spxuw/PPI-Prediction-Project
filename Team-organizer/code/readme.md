@@ -19,9 +19,8 @@ N/A
 
 # Method description
 The method used in this example code is the heuristic score: Common Neighbors for node pair. The common neighbors algorithm quantifies the overlap or similarity of two nodes as follows[1]:
-```math
-s_{ij} = |\Gamma(i)\cup\Gamma(i)|
-```
+![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+
 
 # Reference
 [1]. Lü, L., & Zhou, T. (2011). Link prediction in complex networks: A survey. Physica A: statistical mechanics and its applications, 390(6), 1150-1170.
