@@ -16,7 +16,7 @@ Comprehensive insight of the human protein-protein interaction (PPI) network or 
 # Repo Contents of each team
 * Codes: source code of top-3 methods.
 * Edgelist: edge lsit of five interactomes.
-* results: (i). Predicitons of top-500 PPIs by top-7 methods. (ii). Results of experimental valition of positive PPIs by top-7 methods.
+* Results: (i). Predicitons of top-500 PPIs by top-7 methods. (ii). Results of experimental valition of positive PPIs by top-7 methods.
 # Software dependencies
 The following dependencies are required:
 
