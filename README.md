@@ -26,3 +26,4 @@ The following dependencies are required:
 The baseline methods used to compared the peroformance in each network:
   - SEAL: https://github.com/muhanzhang/SEAL.
   - SkipGNN: https://github.com/kexinhuang12345/SkipGNN.
+  - GLEE: https://github.com/leotrs/glee.
