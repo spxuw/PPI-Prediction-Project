@@ -72,10 +72,10 @@ def bfs(size, graph):
             if len(overlap) == len(current_nodes):
                 break
             else:
-                if len(current_list)+len(current_nodes) <= size:
+                if len(current_list)+len(current_nodes) < size:
                     current_list = current_list+current_nodes
                 else:
-                    n = size-len(current_list)+1
+                    n = size-len(current_list)
                     sub_nodes = random.sample(current_nodes, n)
                     current_list = current_list+sub_nodes
                     # sort current module to be able to remove duplicated ones
@@ -97,7 +97,7 @@ def bfs(size, graph):
     # add module id column
     module_id = range(1, len(dup_free)+1)
     modules = pd.DataFrame(dup_free)
-    modules[0] = module_id
+    modules.insert(0, "", module_id)
 
     return [modules, coverage]
 

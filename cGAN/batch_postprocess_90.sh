@@ -4,14 +4,14 @@
 output_dir=$1
 
 # 5 interactomes n90
-declare -a network_list=("Celegans")
+declare -a network_list=("Yeast" "HuRI" "SyntheticPPI" "Arabidopsis" "Celegans")
 
 metrics_dir="$output_dir/metrics/"
 
 mkdir -p "$metrics_dir"
 
 # run the postprocess for 5 interactomes
-for ((i=0; i<1; i++));
+for ((i=0; i<5; i++));
 do
     network_name="${network_list[$i]}"
     network_output_dir="$output_dir/network/$network_name/"

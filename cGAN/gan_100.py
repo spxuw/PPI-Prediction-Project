@@ -46,6 +46,7 @@ print("- Importing is completed")
 
 #%%
 # Read in parameters
+
 with open(sys.argv[1]) as jsonfile:
     input_settings = json.load(jsonfile)
 
@@ -131,11 +132,13 @@ def handle_module(N_Mod_base, N_Em_base, N_Ad_base, N_Ad_plus_1,
                  & (N_Ad_plus_1["TARGET"] == int(N_Mod_base.iloc[index].iloc[l]))).any()):
 
                 adjacency_plus_1[j, l] = 1
+                adjacency_plus_1[l, j] = 1
                 
             if (((N_Ad_base["SOURCE"] == int(N_Mod_base.iloc[index].iloc[j])) 
                  & (N_Ad_base["TARGET"] == int(N_Mod_base.iloc[index].iloc[l]))).any()):
 
                 adjacency_base[j, l] = 1
+                adjacency_base[l, j] = 1
                 
             link_ids[j, l] = str(int(N_Mod_base.iloc[index].iloc[j])) + '_' + str(int(N_Mod_base.iloc[index].iloc[l]))
                 
