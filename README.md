@@ -17,8 +17,6 @@ Comprehensive insight of the human protein-protein interaction (PPI) network or 
 * Source codes of top 4 methods: DNN (Node2vec+DNN), MPS, RNM and cGAN.
 * Edgelist: edgelist of five interactomes (Arabidopsis, C. elegans, S. cerevisiae, Homo sapiens and a synthetic interactome).
 * Experiment: experimental validation results of merged top-500 PPIs from top-7 methods.
-# Software dependencies
-The following dependencies are required:
 
 # Reproduction instructions
 
