@@ -19,7 +19,7 @@ Comprehensive insights from the human protein-protein interaction (PPI) network,
 * Experimental validation: experimental validation results of merged top-500 PPIs from top-7 methods.
 
 # Reproduction instructions
-Each method folder includes a file indicating the detail of method itself and reproduction instructions.
+Each prediction method folder includes a file indicating the detail of method itself and reproduction instructions.
 # Baseline methods implementation
 The baseline methods used to compared the peroformance in each network:
   - SEAL: https://github.com/muhanzhang/SEAL/tree/master/Python.
