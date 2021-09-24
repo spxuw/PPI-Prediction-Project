@@ -25,4 +25,6 @@ The baseline methods used to compared the peroformance in each network:
   - SEAL: https://github.com/muhanzhang/SEAL/tree/master/Python.
   - SkipGNN: https://github.com/kexinhuang12345/SkipGNN.
   - GLEE: https://github.com/leotrs/glee.
-  - Heuristic: https://github.com/muhanzhang/SEAL/tree/master/MATLAB.
+  - Heuristic (CN, JC, PA, AA, RA, Katz, RWR, SimRank, ACT, SIM, MF, SBM, SPC): https://github.com/muhanzhang/SEAL/tree/master/MATLAB.
+  - NNMF: NNMF is realized using MATLAB function 'nnmf'.
+  - Ensemble: We sum up the similarities of each PPIs from the heuristic methods (CN, JC, PA, AA, RA, Katz, RWR, SimRank, ACT, SIM) together.
