@@ -1,0 +1,10 @@
+The MSCD library is not original to this toolbox, it refers to the paper:
+"Graph Wavelets for 
+Multiscale Community Mining", Tremblay and Borgnat, in IEEE 
+Transactions on Signal Processing, volume 62, issue 20, 
+pp. 5227-5239, October 2014.
+
+The library can be downloaded at the author's webpage
+http://www.gipsa-lab.fr/~nicolas.tremblay/index.php
+
+We acknowledge the author for the beautiful and useful work!
