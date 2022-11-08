@@ -1,0 +1,15 @@
+{
+   "oSourceList": {
+     "oN100_Ad": "|1|",
+     "oN100_Em": "|10|",
+     "oN100_Mod": "|11|",
+     "oN90_Ad": "|2|",
+     "oN90_Em": "|3|",
+     "oN90_Mod": "|4|",
+     "oN81_Ad": "|5|",
+     "oN81_Em": "|6|",
+     "oN81_Mod": "|7|"
+   },
+   "oOutputPath": "|8|",
+   "oOutputName": "|9|"
+}
