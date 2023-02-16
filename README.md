@@ -4,7 +4,6 @@ This is the repository for the "International Network Medicine Consortium Protei
 Cite the code: [![DOI](https://sandbox.zenodo.org/badge/313973492.svg)](https://sandbox.zenodo.org/badge/latestdoi/313973492)
 
 
-
 # Contents
 * [Overview]
 * [Repo Contents]
