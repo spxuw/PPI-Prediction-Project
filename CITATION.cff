@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wang
+    given-names: Xu-Wen
+    orcid: 0000-0001-7670-3544
+title: Assessment of community efforts to advance network-based prediction of protein-protein interactions
+version: v1.0
+date-released: 2023-02-16
