@@ -28,3 +28,5 @@ The baseline methods used to compared the peroformance in each network:
   - Heuristic (CN, JC, PA, AA, RA, Katz, RWR, SimRank, ACT, SIM, MF, SBM, SPC): https://github.com/muhanzhang/SEAL/tree/master/MATLAB.
   - NNMF: NNMF is realized using MATLAB function 'nnmf'.
   - Ensemble: We sum up the similarities of each PPIs from the heuristic methods (CN, JC, PA, AA, RA, Katz, RWR, SimRank, ACT, SIM) together.
+ 
+ # Cite the code: [![DOI](https://sandbox.zenodo.org/badge/313973492.svg)](https://sandbox.zenodo.org/badge/latestdoi/313973492)
