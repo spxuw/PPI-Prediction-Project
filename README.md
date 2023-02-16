@@ -1,5 +1,6 @@
 # PPI Prediction Challenge Preparation
 This is the repository for the "International Network Medicine Consortium Protein-Protein Interactions Prediction Challenge".
+
 Cite the code: [![DOI](https://sandbox.zenodo.org/badge/313973492.svg)](https://sandbox.zenodo.org/badge/latestdoi/313973492)
 
 
